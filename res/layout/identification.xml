@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom:" />
+
+    <EditText
+        android:id="@+id/edit_nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/nom"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/prenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_toRightOf="@+id/edit_nom"
+        android:text="Prénom:" />
+
+    <EditText
+        android:id="@+id/edit_prenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/prenom"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/date_naissance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edit_nom"
+        android:layout_marginTop="45dp"
+        android:text="Date de naissance:" />
+
+    <EditText
+        android:id="@+id/edit_date_naissance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/date_naissance"
+        android:layout_alignBottom="@+id/date_naissance"
+        android:layout_toRightOf="@+id/date_naissance"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/lieu_naissance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edit_date_naissance"
+        android:layout_marginTop="45dp"
+        android:text="Lieu de naissance" />
+
+    <EditText
+        android:id="@+id/edit_lieu_naissance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lieu_naissance"
+        android:layout_alignBottom="@+id/lieu_naissance"
+        android:layout_toRightOf="@+id/lieu_naissance"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/adresse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edit_lieu_naissance"
+        android:layout_marginTop="45dp"
+        android:text="Adresse:" />
+
+    <EditText
+        android:id="@+id/edit_adresse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/adresse"
+        android:layout_alignBottom="@+id/adresse"
+        android:layout_toRightOf="@+id/adresse"
+        android:ems="10"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:id="@+id/personne_prevenir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edit_adresse"
+        android:layout_marginTop="45dp"
+        android:text="Personne à prévenir:" />
+
+    <EditText
+        android:id="@+id/edit_personne_prevenir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/personne_prevenir"
+        android:layout_alignBottom="@+id/personne_prevenir"
+        android:layout_toRightOf="@+id/personne_prevenir"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/valider_donnees_primaires"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/personne_prevenir"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Valider" />
+
+</RelativeLayout>

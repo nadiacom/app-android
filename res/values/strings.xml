@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SACOtest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Paramètres</string>
+    
+    <string-array name="categories">
+        <item>Communication audiovisuelle</item>
+        <item>Messages instantanés</item>
+        <item>Mains courantes</item>
+        </string-array>
+     <string-array name="categories_main_courante">
+        <item>Données Primaires</item>
+        <item>Identification</item>
+        <item>Circonstances</item>
+        <item>Bilan d\'urgence vitale</item>
+        <item>Bilan complémentaire</item>
+        <item>Gestes effectués</item>
+        <item>Evolution</item>
+        <item>Moyen présent</item>
+        <item>Suite donnée</item>
+        <item>Décharge de responsabilité</item>
+       
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+</resources>
